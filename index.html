@@ -1,7 +1,121 @@
-<html>
-<head><meta charset="utf-8" /></head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Supplementary Materials – Thesis on Lived Experiences of DPDR</title>
+<meta name="description" content="Supplementary materials for a thesis analysing r/dpdr Reddit posts on depersonalisation-derealisation disorder.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#eef1f4; --surface:#f8f9fb; --ink:#1d2733; --muted:#5a6775;
+  --line:#cfd6de; --accent:#3d5a80; --ghost:#9fb3c8;
+  --serif:"Newsreader",Georgia,"Times New Roman",serif;
+  --sans:"Source Sans 3",system-ui,-apple-system,"Segoe UI",sans-serif;
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    --bg:#141a21; --surface:#1b232c; --ink:#e4e9ee; --muted:#9aa7b5;
+    --line:#2c3846; --accent:#8fb0d6; --ghost:#4a607a; color-scheme:dark;
+  }
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font:1.05rem/1.65 var(--sans)}
+a{color:var(--accent);text-underline-offset:3px}
+a:focus-visible{outline:2px solid var(--accent);outline-offset:3px;border-radius:2px}
+main,header .in{max-width:46rem;margin:0 auto;padding:0 1.25rem}
+
+header{padding:5rem 0 3rem;border-bottom:1px solid var(--line)}
+h1{font:400 clamp(2rem,6vw,3.4rem)/1.1 var(--serif);margin:0 0 1.25rem;position:relative;letter-spacing:-.01em}
+/* the one memorable element: a ghosted, offset copy of the title, like a world seen at a slight remove */
+h1 .ghost{position:absolute;inset:0;color:var(--ghost);transform:translate(6px,5px);filter:blur(2.5px);opacity:.55;z-index:0;pointer-events:none;animation:settle 2.4s ease-out both}
+h1 .real{position:relative;z-index:1}
+@keyframes settle{from{transform:translate(18px,12px);filter:blur(9px);opacity:.2}}
+@media (prefers-reduced-motion:reduce){h1 .ghost{animation:none}}
+.sub{font:italic 1.35rem/1.4 var(--serif);color:var(--muted);margin:0 0 1.5rem}
+.meta{margin:0;color:var(--muted);font-size:.95rem}
+
+nav{padding:1rem 0;border-bottom:1px solid var(--line);font-size:.95rem}
+nav .in{display:flex;flex-wrap:wrap;gap:.4rem 1.25rem;max-width:46rem;margin:0 auto;padding:0 1.25rem}
+
+section{padding:2.25rem 0 .5rem}
+h2{font:500 1.7rem/1.2 var(--serif);margin:0 0 .75rem}
+p{margin:0 0 1rem}
+ul.files{list-style:none;margin:0 0 1rem;padding:0;border-top:1px solid var(--line)}
+ul.files li{padding:.7rem 0;border-bottom:1px solid var(--line)}
+ul.files .d{display:block;color:var(--muted);font-size:.95rem}
+.note{background:var(--surface);border-left:3px solid var(--accent);padding:.9rem 1.1rem;margin:1rem 0;border-radius:0 4px 4px 0}
+.todo{color:var(--muted);font-style:italic}
+footer{margin-top:3rem;padding:1.5rem 0 3rem;border-top:1px solid var(--line);color:var(--muted);font-size:.95rem}
+</style>
+</head>
 <body>
-    <div>                        <script>window.PlotlyConfig = {MathJaxConfig: 'local'};</script>
-        <script charset="utf-8" src="https://cdn.plot.ly/plotly-3.4.0.min.js" integrity="sha256-KEmPoupLpFyGMyGAiOsiNDbKDKAvxXAn/W+oQa0ZAfk=" crossorigin="anonymous"></script>                <div id="c1489010-ea6d-4f1b-8d1a-30c847799663" class="plotly-graph-div" style="height:650px; width:650px;"></div>            <script>                window.PLOTLYENV=window.PLOTLYENV || {};                                if (document.getElementById("c1489010-ea6d-4f1b-8d1a-30c847799663")) {                    Plotly.newPlot(                        "c1489010-ea6d-4f1b-8d1a-30c847799663",                        [{"customdata":[[0,"Substance Use",87],[1,"Panic & Health Anxiety",84],[2,"Therapeutic & Social Support",60],[3,"Discussing Symptoms #1",60],[4,"Treatment",50],[5,"Discussing Symptoms #2",46],[6,"Physical & Sensory Symptoms",45],[7,"Living with DPDR",40],[8,"Hopelessness",38],[9,"Discussing Symptoms #3",35],[10,"Existential Concerns",34],[11,"Diverse (Causes & Symptom Fluctuation)",27],[12,"Medication Experiences",19],[13,"Diverse (Symptoms & Recovery)",14]],"hovertemplate":"\u003cb\u003eTopic %{customdata[0]}\u003c\u002fb\u003e\u003cbr\u003e%{customdata[1]}\u003cbr\u003eSize: %{customdata[2]}","legendgroup":"","marker":{"color":"#B0BEC5","size":{"dtype":"i1","bdata":"V1Q8PDIuLSgmIyIbEw4="},"sizemode":"area","sizeref":0.054375,"symbol":"circle","line":{"color":"DarkSlateGrey","width":2}},"mode":"markers","name":"","orientation":"v","showlegend":false,"x":{"dtype":"f4","bdata":"NYmEwJZorMDbJq7ADmvEwJpMzcC+XDjAZZBcwJoKgMCT0zxBC9sdwEXCQEEGLS\u002fAOxfAwFwokMA="},"xaxis":"x","y":{"dtype":"f4","bdata":"+VAXQRrFEUHdXQpBb68BQePMEUFbyBhBWm4RQVUoIEHsDy5ArVYaQbZSHkCRaBFBx4oOQdZcHUE="},"yaxis":"y","type":"scatter"}],                        {"template":{"data":{"barpolar":[{"marker":{"line":{"color":"white","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"bar":[{"error_x":{"color":"rgb(36,36,36)"},"error_y":{"color":"rgb(36,36,36)"},"marker":{"line":{"color":"white","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"carpet":[{"aaxis":{"endlinecolor":"rgb(36,36,36)","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"rgb(36,36,36)"},"baxis":{"endlinecolor":"rgb(36,36,36)","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"rgb(36,36,36)"},"type":"carpet"}],"choropleth":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"type":"choropleth"}],"contourcarpet":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"type":"contourcarpet"}],"contour":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"contour"}],"heatmap":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"heatmap"}],"histogram2dcontour":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"histogram2dcontour"}],"histogram2d":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"histogram2d"}],"histogram":[{"marker":{"line":{"color":"white","width":0.6}},"type":"histogram"}],"mesh3d":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"type":"mesh3d"}],"parcoords":[{"line":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"parcoords"}],"pie":[{"automargin":true,"type":"pie"}],"scatter3d":[{"line":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scatter3d"}],"scattercarpet":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scattercarpet"}],"scattergeo":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scattergeo"}],"scattergl":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scattergl"}],"scattermapbox":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scattermapbox"}],"scattermap":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scattermap"}],"scatterpolargl":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scatterpolargl"}],"scatterpolar":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scatterpolar"}],"scatter":[{"fillpattern":{"fillmode":"overlay","size":10,"solidity":0.2},"type":"scatter"}],"scatterternary":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scatterternary"}],"surface":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"surface"}],"table":[{"cells":{"fill":{"color":"rgb(237,237,237)"},"line":{"color":"white"}},"header":{"fill":{"color":"rgb(217,217,217)"},"line":{"color":"white"}},"type":"table"}]},"layout":{"annotationdefaults":{"arrowhead":0,"arrowwidth":1},"autotypenumbers":"strict","coloraxis":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"colorscale":{"diverging":[[0.0,"rgb(103,0,31)"],[0.1,"rgb(178,24,43)"],[0.2,"rgb(214,96,77)"],[0.3,"rgb(244,165,130)"],[0.4,"rgb(253,219,199)"],[0.5,"rgb(247,247,247)"],[0.6,"rgb(209,229,240)"],[0.7,"rgb(146,197,222)"],[0.8,"rgb(67,147,195)"],[0.9,"rgb(33,102,172)"],[1.0,"rgb(5,48,97)"]],"sequential":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"sequentialminus":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]]},"colorway":["#1F77B4","#FF7F0E","#2CA02C","#D62728","#9467BD","#8C564B","#E377C2","#7F7F7F","#BCBD22","#17BECF"],"font":{"color":"rgb(36,36,36)"},"geo":{"bgcolor":"white","lakecolor":"white","landcolor":"white","showlakes":true,"showland":true,"subunitcolor":"white"},"hoverlabel":{"align":"left"},"hovermode":"closest","mapbox":{"style":"light"},"paper_bgcolor":"white","plot_bgcolor":"white","polar":{"angularaxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"},"bgcolor":"white","radialaxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"}},"scene":{"xaxis":{"backgroundcolor":"white","gridcolor":"rgb(232,232,232)","gridwidth":2,"linecolor":"rgb(36,36,36)","showbackground":true,"showgrid":false,"showline":true,"ticks":"outside","zeroline":false,"zerolinecolor":"rgb(36,36,36)"},"yaxis":{"backgroundcolor":"white","gridcolor":"rgb(232,232,232)","gridwidth":2,"linecolor":"rgb(36,36,36)","showbackground":true,"showgrid":false,"showline":true,"ticks":"outside","zeroline":false,"zerolinecolor":"rgb(36,36,36)"},"zaxis":{"backgroundcolor":"white","gridcolor":"rgb(232,232,232)","gridwidth":2,"linecolor":"rgb(36,36,36)","showbackground":true,"showgrid":false,"showline":true,"ticks":"outside","zeroline":false,"zerolinecolor":"rgb(36,36,36)"}},"shapedefaults":{"fillcolor":"black","line":{"width":0},"opacity":0.3},"ternary":{"aaxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"},"baxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"},"bgcolor":"white","caxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"}},"title":{"x":0.05},"xaxis":{"automargin":true,"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside","title":{"standoff":15},"zeroline":false,"zerolinecolor":"rgb(36,36,36)"},"yaxis":{"automargin":true,"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside","title":{"standoff":15},"zeroline":false,"zerolinecolor":"rgb(36,36,36)"}}},"xaxis":{"anchor":"y","domain":[0.0,1.0],"title":{"text":""},"visible":false,"range":[-7.377941131591797,13.854543685913086]},"yaxis":{"anchor":"x","domain":[0.0,1.0],"title":{"text":""},"visible":false,"range":[2.1027286052703857,11.511323928833008]},"legend":{"tracegroupgap":0,"itemsizing":"constant"},"margin":{"t":60},"title":{"font":{"size":22,"color":"Black"},"text":"\u003cb\u003eIntertopic Distance Map\u003c\u002fb\u003e","y":0.95,"x":0.5,"xanchor":"center","yanchor":"top"},"hoverlabel":{"font":{"size":16,"family":"Rockwell"},"bgcolor":"white"},"width":650,"height":650,"sliders":[{"active":0,"pad":{"t":50},"steps":[{"args":[{"marker.color":[["red","#B0BEC5","#B0BEC5","#B0BEC5","#B0BEC5","#B0BEC5","#B0BEC5","#B0BEC5","#B0BEC5","#B0BEC5","#B0BEC5","#B0BEC5","#B0BEC5","#B0BEC5"]]}],"label":"Topic 0","method":"update"},{"args":[{"marker.color":[["#B0BEC5","red","#B0BEC5","#B0BEC5","#B0BEC5","#B0BEC5","#B0BEC5","#B0BEC5","#B0BEC5","#B0BEC5","#B0BEC5","#B0BEC5","#B0BEC5","#B0BEC5"]]}],"label":"Topic 1","method":"update"},{"args":[{"marker.color":[["#B0BEC5","#B0BEC5","red","#B0BEC5","#B0BEC5","#B0BEC5","#B0BEC5","#B0BEC5","#B0BEC5","#B0BEC5","#B0BEC5","#B0BEC5","#B0BEC5","#B0BEC5"]]}],"label":"Topic 2","method":"update"},{"args":[{"marker.color":[["#B0BEC5","#B0BEC5","#B0BEC5","red","#B0BEC5","#B0BEC5","#B0BEC5","#B0BEC5","#B0BEC5","#B0BEC5","#B0BEC5","#B0BEC5","#B0BEC5","#B0BEC5"]]}],"label":"Topic 3","method":"update"},{"args":[{"marker.color":[["#B0BEC5","#B0BEC5","#B0BEC5","#B0BEC5","red","#B0BEC5","#B0BEC5","#B0BEC5","#B0BEC5","#B0BEC5","#B0BEC5","#B0BEC5","#B0BEC5","#B0BEC5"]]}],"label":"Topic 4","method":"update"},{"args":[{"marker.color":[["#B0BEC5","#B0BEC5","#B0BEC5","#B0BEC5","#B0BEC5","red","#B0BEC5","#B0BEC5","#B0BEC5","#B0BEC5","#B0BEC5","#B0BEC5","#B0BEC5","#B0BEC5"]]}],"label":"Topic 5","method":"update"},{"args":[{"marker.color":[["#B0BEC5","#B0BEC5","#B0BEC5","#B0BEC5","#B0BEC5","#B0BEC5","red","#B0BEC5","#B0BEC5","#B0BEC5","#B0BEC5","#B0BEC5","#B0BEC5","#B0BEC5"]]}],"label":"Topic 6","method":"update"},{"args":[{"marker.color":[["#B0BEC5","#B0BEC5","#B0BEC5","#B0BEC5","#B0BEC5","#B0BEC5","#B0BEC5","red","#B0BEC5","#B0BEC5","#B0BEC5","#B0BEC5","#B0BEC5","#B0BEC5"]]}],"label":"Topic 7","method":"update"},{"args":[{"marker.color":[["#B0BEC5","#B0BEC5","#B0BEC5","#B0BEC5","#B0BEC5","#B0BEC5","#B0BEC5","#B0BEC5","red","#B0BEC5","#B0BEC5","#B0BEC5","#B0BEC5","#B0BEC5"]]}],"label":"Topic 8","method":"update"},{"args":[{"marker.color":[["#B0BEC5","#B0BEC5","#B0BEC5","#B0BEC5","#B0BEC5","#B0BEC5","#B0BEC5","#B0BEC5","#B0BEC5","red","#B0BEC5","#B0BEC5","#B0BEC5","#B0BEC5"]]}],"label":"Topic 9","method":"update"},{"args":[{"marker.color":[["#B0BEC5","#B0BEC5","#B0BEC5","#B0BEC5","#B0BEC5","#B0BEC5","#B0BEC5","#B0BEC5","#B0BEC5","#B0BEC5","red","#B0BEC5","#B0BEC5","#B0BEC5"]]}],"label":"Topic 10","method":"update"},{"args":[{"marker.color":[["#B0BEC5","#B0BEC5","#B0BEC5","#B0BEC5","#B0BEC5","#B0BEC5","#B0BEC5","#B0BEC5","#B0BEC5","#B0BEC5","#B0BEC5","red","#B0BEC5","#B0BEC5"]]}],"label":"Topic 11","method":"update"},{"args":[{"marker.color":[["#B0BEC5","#B0BEC5","#B0BEC5","#B0BEC5","#B0BEC5","#B0BEC5","#B0BEC5","#B0BEC5","#B0BEC5","#B0BEC5","#B0BEC5","#B0BEC5","red","#B0BEC5"]]}],"label":"Topic 12","method":"update"},{"args":[{"marker.color":[["#B0BEC5","#B0BEC5","#B0BEC5","#B0BEC5","#B0BEC5","#B0BEC5","#B0BEC5","#B0BEC5","#B0BEC5","#B0BEC5","#B0BEC5","#B0BEC5","#B0BEC5","red"]]}],"label":"Topic 13","method":"update"}]}],"shapes":[{"line":{"color":"#CFD8DC","width":2},"type":"line","x0":3.2383012771606445,"x1":3.2383012771606445,"y0":2.1027286052703857,"y1":11.511323928833008},{"line":{"color":"#9E9E9E","width":2},"type":"line","x0":-7.377941131591797,"x1":13.854543685913086,"y0":6.807026386260986,"y1":6.807026386260986}],"annotations":[{"showarrow":false,"text":"D1","x":-7.377941131591797,"y":6.807026386260986,"yshift":10},{"showarrow":false,"text":"D2","x":3.2383012771606445,"xshift":10,"y":11.511323928833008}]},                        {"responsive": true}                    )                };            </script>        </div>
+<header>
+  <div class="in">
+    <h1 aria-label="Supplementary Materials: Lived Experiences of Depersonalisation-Derealisation Disorder">
+      <span class="ghost" aria-hidden="true">Lived Experiences of Depersonalisation-Derealisation Disorder</span>
+      <span class="real">Lived Experiences of Depersonalisation-Derealisation Disorder</span>
+    </h1>
+    <p class="sub">A text-mining analysis of r/dpdr Reddit posts</p>
+    <p class="meta">Supplementary materials for a master thesis. [Your name], [University], [Programme], [Month 2026].</p>
+  </div>
+</header>
+
+<nav aria-label="Page sections"><div class="in">
+  <a href="#overview">Overview</a><a href="#code">Code</a><a href="#figures">Figures</a><a href="#tables">Tables</a>
+  <a href="#ethics">Ethics</a><a href="#citation">Citation</a>
+</div></nav>
+
+<main>
+<section id="overview">
+  <h2>Overview</h2>
+  <p>This website supports a thesis on the lived experiences of people with depersonalisation-derealisation disorder (DPDR). It analyses publicly available posts from the subreddit <em>r/dpdr</em> using BERTopic topic modelling, sentiment analysis and emotion analysis.</p>
+  <p>The raw Reddit data are not included, for ethical and privacy reasons.</p>
+</section>
+
+<section id="code">
+  <h2>Analysis code</h2>
+  <p>The notebooks are in the <a href="https://github.com/MSteins1/Thesis-DPDR-2026">GitHub repository</a> and are meant to be run in order.</p>
+  <ul class="files">
+    <li><a href="https://github.com/MSteins1/Thesis-DPDR-2026/blob/main/1_Data%20Preprocessing.ipynb">1_Data Preprocessing.ipynb</a><span class="d">Cleans and prepares the posts for analysis.</span></li>
+    <li><a href="https://github.com/MSteins1/Thesis-DPDR-2026/blob/main/2_Creating%20the%20BERTopic%20Model.ipynb">2_Creating the BERTopic Model.ipynb</a><span class="d">Builds the topic model.</span></li>
+    <li><a href="https://github.com/MSteins1/Thesis-DPDR-2026/blob/main/3_Sentiment%20Analysis.ipynb">3_Sentiment Analysis.ipynb</a><span class="d">Classifies sentiment and compares it across topics.</span></li>
+    <li><a href="https://github.com/MSteins1/Thesis-DPDR-2026/blob/main/4_Emotion%20Analysis.ipynb">4_Emotion Analysis.ipynb</a><span class="d">Classifies emotions and compares them across topics.</span></li>
+  </ul>
+</section>
+
+<section id="figures">
+  <h2>Interactive figures</h2>
+  <p>Interactive HTML versions of the figures open in your browser.</p>
+  <ul class="files">
+    <li><a href="intertopic_distance_map.html">Intertopic distance map</a><span class="d">How the topics relate to each other.</span></li>
+    <!-- Add more figures: upload the HTML file to a /figures folder, then copy this line.
+    <li><a href="figures/figure_02_topic_term_barchart.html">Figure 2: Topic term barchart</a></li> -->
+  </ul>
+</section>
+
+<section id="tables">
+  <h2>Supplementary tables</h2>
+  <p>Aggregated tables will be listed here. They contain no raw Reddit content.</p>
+  <p class="todo">To add: export tables as CSV, upload them to a /tables folder, and link them like the figures above.</p>
+</section>
+
+<section id="ethics">
+  <h2>Ethical data handling</h2>
+  <p>The analysis uses publicly available Reddit posts from <em>r/dpdr</em>. To reduce the risk of identifying anyone, the raw data are not shared. No verbatim posts or comments are reproduced, and results are reported in aggregate only.</p>
+  <p>Ethical approval: [Ethics committee name], application number [number].</p>
+  <div class="note"><strong>Data availability.</strong> The materials here let you inspect the workflow and aggregated results. They do not allow individual posts to be reconstructed.</div>
+</section>
+
+<section id="citation">
+  <h2>Citation</h2>
+  <p>[Surname, Initials]. (2026). <em>[Full thesis title]</em> [Master’s thesis, University].</p>
+</section>
+</main>
+
+<footer><div class="in" style="max-width:46rem;margin:0 auto;padding:0 1.25rem">Supplementary materials for academic transparency and documentation.</div></footer>
 </body>
 </html>
