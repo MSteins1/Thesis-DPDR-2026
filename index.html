@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Supplementary Materials – Thesis on Lived Experiences of DPDR</title>
-<meta name="description" content="Supplementary materials for a thesis analysing r/dpdr Reddit posts on depersonalisation-derealisation disorder.">
+<meta name="description" content="Supplementary materials for my thesis analysing r/dpdr posts on Reddit discussing depersonalisation-derealisation disorder.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
@@ -72,18 +72,18 @@ footer{margin-top:3rem;padding:1.5rem 0 3rem;border-top:1px solid var(--line);co
 <main>
 <section id="overview">
   <h2>Overview</h2>
-  <p>This website supports a thesis on the lived experiences of people with depersonalisation-derealisation disorder (DPDR). It analyses publicly available posts from the subreddit <em>r/dpdr</em> using BERTopic topic modelling, sentiment analysis and emotion analysis.</p>
-  <p>The raw Reddit data are not included, for ethical and privacy reasons.</p>
+  <p>This website supports a thesis on the lived experiences of people with depersonalisation-derealisation disorder (DPDR). It analyses publicly available posts from the subreddit <em>r/dpdr</em> using topic modelling (BERTopic), and sentiment analysis and emotion analysis (RoBERTa).</p>
+  <p>For privacy reasons, the raw Reddit data is not included in the supplement materials.</p>
 </section>
 
 <section id="code">
   <h2>Analysis code</h2>
-  <p>The notebooks are in the <a href="https://github.com/MSteins1/Thesis-DPDR-2026">GitHub repository</a> and are meant to be run in order.</p>
+  <p>The notebooks can be accessed on <a href="https://github.com/MSteins1/Thesis-DPDR-2026">GitHub repository</a> .</p>
   <ul class="files">
-    <li><a href="https://github.com/MSteins1/Thesis-DPDR-2026/blob/main/1_Data%20Preprocessing.ipynb">1_Data Preprocessing.ipynb</a><span class="d">Cleans and prepares the posts for analysis.</span></li>
-    <li><a href="https://github.com/MSteins1/Thesis-DPDR-2026/blob/main/2_Creating%20the%20BERTopic%20Model.ipynb">2_Creating the BERTopic Model.ipynb</a><span class="d">Builds the topic model.</span></li>
-    <li><a href="https://github.com/MSteins1/Thesis-DPDR-2026/blob/main/3_Sentiment%20Analysis.ipynb">3_Sentiment Analysis.ipynb</a><span class="d">Classifies sentiment and compares it across topics.</span></li>
-    <li><a href="https://github.com/MSteins1/Thesis-DPDR-2026/blob/main/4_Emotion%20Analysis.ipynb">4_Emotion Analysis.ipynb</a><span class="d">Classifies emotions and compares them across topics.</span></li>
+    <li><a href="https://github.com/MSteins1/Thesis-DPDR-2026/blob/main/1_Data%20Preprocessing.ipynb">1_Data Preprocessing.ipynb</a><span class="d">Preprocessing of the data to be analysed.</span></li>
+    <li><a href="https://github.com/MSteins1/Thesis-DPDR-2026/blob/main/2_Creating%20the%20BERTopic%20Model.ipynb">2_Creating the BERTopic Model.ipynb</a><span class="d">Creating the topic model.</span></li>
+    <li><a href="https://github.com/MSteins1/Thesis-DPDR-2026/blob/main/3_Sentiment%20Analysis.ipynb">3_Sentiment Analysis.ipynb</a><span class="d">Sentiment analysis and comparison across topics.</span></li>
+    <li><a href="https://github.com/MSteins1/Thesis-DPDR-2026/blob/main/4_Emotion%20Analysis.ipynb">4_Emotion Analysis.ipynb</a><span class="d">Emotion classification and comparison across topics.</span></li>
   </ul>
 </section>
 
@@ -91,7 +91,7 @@ footer{margin-top:3rem;padding:1.5rem 0 3rem;border-top:1px solid var(--line);co
   <h2>Interactive figures</h2>
   <p>Interactive HTML versions of the figures open in your browser.</p>
   <ul class="files">
-    <li><a href="intertopic_distance_map.html">Intertopic distance map</a><span class="d">How the topics relate to each other.</span></li>
+    <li><a href="intertopic_distance_map.html">Intertopic distance map</a><span class="d">Shows how the topics relate to each other.</span></li>
     <!-- Add more figures: upload the HTML file to a /figures folder, then copy this line.
     <li><a href="figures/figure_02_topic_term_barchart.html">Figure 2: Topic term barchart</a></li> -->
   </ul>
@@ -105,14 +105,14 @@ footer{margin-top:3rem;padding:1.5rem 0 3rem;border-top:1px solid var(--line);co
 
 <section id="ethics">
   <h2>Ethical data handling</h2>
-  <p>The analysis uses publicly available Reddit posts from <em>r/dpdr</em>. To reduce the risk of identifying anyone, the raw data are not shared. No verbatim posts or comments are reproduced, and results are reported in aggregate only.</p>
-  <p>Ethical approval: [Ethics committee name], application number [number].</p>
+  <p>The analysis used publicly available Reddit posts from <em>r/dpdr</em>. To ensure that users cannot be identified, raw Reddit data and quotes are not shared.</p>
+  <p>Ethical approval: Ethical approval for the study was obtained from the Humanities & Social Sciences Ethics Committee of the University of Twente (Application nr.: 252486).</p>
   <div class="note"><strong>Data availability.</strong> The materials here let you inspect the workflow and aggregated results. They do not allow individual posts to be reconstructed.</div>
 </section>
 
 <section id="citation">
   <h2>Citation</h2>
-  <p>[Surname, Initials]. (2026). <em>[Full thesis title]</em> [Master’s thesis, University].</p>
+  <p>[Steins, M.U.S.]. (2026). <em>[Investigating Real-World Experiences of Derealisation and Depersonalisation Shared on Reddit: A Transformer-Based Natural Language Processing Study]</em> [Master’s thesis, University of Twente].</p>
 </section>
 </main>
 
